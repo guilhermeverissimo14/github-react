@@ -1,0 +1,51 @@
+header {
+    background-color: #fff;
+}
+
+header .title {
+    display: flex;
+    padding: 1em;
+}
+
+header .title-search {
+    color: #0069CA;
+    margin: 0;
+    font-size: 25px;
+    font-family: "Nunito";
+}
+
+header .title-devs {
+    color: #8C19D2;
+    margin: 0;
+    font-size: 25px;
+}
+
+.main-profile{
+    margin: 0;
+    width: 100%;
+    height: 100vw;
+    background-color:#f2f2f2;
+}
+
+.content-cards{
+    display: flex;
+    gap: 1em;
+    margin: 0em 3em 0 3em
+}
+.card-profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 27%;
+    margin: 1em 0 1em 0;
+    background-color: #FFFF;
+  }
+
+  .card-repository {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 70%;
+    margin: 1em 0 1em 0;
+    background-color: #fff;
+  }

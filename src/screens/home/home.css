@@ -6,49 +6,92 @@
     align-items: center;
     justify-content: center;
     gap: 2em;
-}
-
-.title {
+ }
+ 
+ .title {
     display: flex;
     gap: 10px;
-}
-
-.title-search {
-    color: #0069CA;
-    font-size: 45px;
-}
-
-.title-devs {
-    color: #8C19D2;
-    font-size: 45px;
-}
-
-.content-search{
+    height: 109px;
+    line-height: 109.12px;
+ }
+ 
+ .title-search {
+    color: #0069ca;
+    font-size: 80px;
+    font-family: "Nunito";
+    font-weight: 700;
+ }
+ 
+ .title-devs {
+    color: #8c19d2;
+    font-size: 80px;
+    font-family: "Nunito";
+    font-weight: 700;
+ }
+ 
+ .container {
     display: flex;
-    gap:1em
-}
-
-.content-search button {
-    width: 10vw;
-    border-radius: 5px;
-    padding: .8em;
-    background-color: #8C19D2;
+    gap: 1em;
+    margin-top: 2em;
+ }
+ 
+ .content-search {
+    display: flex;
+    gap: 1em;
+ }
+ 
+ .content-input {
+    padding: 0.8em;
+    border: none;
+    outline: none;
+ }
+ 
+ .content-search button {
+    width: 176px;
+    height: 48px;
+    border-radius: 6px;
+    padding: 10px 24px 10px 24px;
+    background-color: #8c19d2;
     color: white;
     border: none;
     cursor: pointer;
-}
-
-.content-search button:hover{
+    font-family: "Inter";
+ }
+ 
+ .content-search button:hover {
     background-color: #ab60da;
-}
-
-.content-search input {
-    border-radius: 5px;
-    width: 25vw;
-    border: 1px solid #E2E8F0;
-}
-
-.content-search input:focus{
-    outline:red;
+ }
+ 
+ .content-search input:focus {
+    outline: red;
     border: 2px solid #91979f;
-}
+ }
+ 
+ .search-icon {
+    color: #cccccc;
+ }
+ 
+ .input-container {
+    display: flex;
+    width: 592px;
+    height: 48px;
+    align-items: center;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+ }
+ 
+ .input-container .material-icons.search-icon {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: #e2e8f0;
+ }
+ 
+ .input-container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Inter";
+ }
+ 
