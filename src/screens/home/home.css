@@ -79,6 +79,10 @@
     border: 1px solid #e2e8f0;
     border-radius: 6px;
  }
+
+ .input-container:hover{
+   border: 2px solid #8c19d2;
+ }
  
  .input-container .material-icons.search-icon {
     margin-right: 8px;
