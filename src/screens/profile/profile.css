@@ -78,6 +78,9 @@ header .input-search:hover {
 }
 
 .header-card img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
     margin: 0;
 }
 
@@ -156,7 +159,7 @@ header .input-search:hover {
     gap: 1em;
 }
 
-.card-content-repository a {
+.card-content-repository .link {
     padding: 0;
     margin: 0;
     font-size: 20px;

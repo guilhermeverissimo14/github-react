@@ -1,11 +1,13 @@
+import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import './home.css'
 
 export default function Home() {
     const navigate = useNavigate();
+    const [username, setusername] = useState("")
 
     function search() {
-        navigate("/profile")
+        navigate(`/profile/${username}`)
     }
 
     return (
@@ -17,7 +19,12 @@ export default function Home() {
             <div className="container">
                 <div className='input-container'>
                     <i className="material-icons search-icon">search</i>
-                    <input type="text" placeholder='Search' className='content-input' />
+                    <input 
+                    type="text" 
+                    placeholder='Search'
+                     className='content-input'
+                     onChange={(e) => setusername(e.target.value)}
+                      />
                 </div>
                 <div className='content-search'>
                     <button onClick={search}>Search</button>
