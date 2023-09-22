@@ -230,3 +230,20 @@ header .title-devs {
   .btn-back button:hover{
     background-color: rgb(197, 74, 74);
   }
+
+
+  /* responsividade */
+
+  @media (max-width: 912px) {
+    .main-profile{
+      display: flex;
+      flex-direction: column;
+    }
+    .card-profile{
+      width: 90%;
+      /* margin-right: 2em; */
+    }
+    .card-repository{
+      width: 100%;
+    }
+  }
