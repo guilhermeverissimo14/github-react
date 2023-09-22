@@ -4,10 +4,10 @@
 - Para o usuário clonar esse projeto em sua máquina ele deve seguir os seguintes passos:
   instalar o node em sua máquina, apartir da versão 16.
   instalar o vite com o seguinte comando:
-  # npm install -g create-vite
+  ## npm install -g create-vite
   após o usuário clonar o projeto, ele deve rodar os seguintes comandos:
-  # npm install   -para instalar as dependências.
-  # npm run dev   -para execultar o projeto.
+  ## npm install   -para instalar as dependências.
+  ## npm run dev   -para execultar o projeto.
 
   Quando o usuário execultar o projeto ele vai deparar com a seguinte tela:
  ![home](https://github.com/guilhermeverissimo14/github-react/assets/105402150/68326588-6385-418b-af05-473cea316030)
